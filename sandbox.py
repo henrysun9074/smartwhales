@@ -6,7 +6,7 @@ model = Unet(
     dim_mults = (1, 2, 4, 8)
 )
 
-#
+
 diffusion = GaussianDiffusion(
     model,
     image_size = 128,
